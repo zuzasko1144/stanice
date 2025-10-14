@@ -1,0 +1,36 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar{
+    background-color: #D96E30 !important;
+
+}
+
+.nav-link, .navbar-brand{
+    color:#F8F5EC !important;
+}
+
+.nav-link:hover, .navbar-brand:hover{
+    color:  #D9D9D9 !important;
+}
+
+.h1{
+    color:#D96E30 !important;
+   
+}
+
+.p{
+    
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+
+h2{
+    color:#B33A1F !important;
+}
+
+.hero{
+    background-color: #F7F8F9;
+}

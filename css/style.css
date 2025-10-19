@@ -23,7 +23,7 @@ body {
   text-transform: uppercase;
 
   font-weight: 900;
-  /* velmi silná varianta */
+  
 }
 
 
@@ -50,9 +50,7 @@ body {
   border-radius: 10px;
 }
 
-.card:hover {
-  transform: translateY(-5px);
-}
+
 
 .card-title {
   text-transform: uppercase;

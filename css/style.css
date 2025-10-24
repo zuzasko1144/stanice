@@ -48,6 +48,14 @@ section{
   font-family: 'Montserrat', sans-serif;
 }
 
+.hero-adopce {
+  background-image: url('../images/adopce-hero.jpg');
+  background-size: cover;
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+  min-height: 400px;
+}
+
 .hero {
   background-image: url('../images/opicak.jpg');
   background-size: cover;

@@ -4,7 +4,12 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
-    
+     
+}
+
+section {
+  position: relative;
+  overflow: hidden; 
 }
 
 .navbar {
@@ -33,7 +38,9 @@ body {
 
 
 
-
+section{
+  isolation: isolate;
+}
 
 .header {
   background-color: rgba(0, 0, 0, 0.5);
@@ -103,6 +110,39 @@ body {
   object-position: center;  
   
 }
+.h3-header{
+  z-index:10;
+}
+
+.blob-card{
+  position: relative;
+  z-index: 1;
+  z-index: auto; 
+  
+}
+
+.pozice {
+  position: absolute;
+  top: -180px;   
+  left: -200px;  
+  width: 550px;  
+  z-index: -1000;    
+}
+
+.pozice2{
+  position: absolute;
+  bottom: -160px; 
+  right: -180px;  
+  width: 550px;   
+  z-index: -1;
+   
+}
+
+.blobik {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 
 @media (min-width: 1200px) {
@@ -135,9 +175,4 @@ h2 {
   font-size:3.5rem;
 }
 
-/*.container-wave{
-  background-image: url('../images/wave-left.svg');
-  background-repeat: no-repeat;
-  background-position:left center;
-  background-size: auto 100%;
-}*/
+

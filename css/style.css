@@ -118,6 +118,29 @@ section{
   object-position: center;  
   
 }
+
+.card-adopce{
+  display: block;
+  width: 100%;
+  height:180px;            
+  object-fit: cover;        
+  object-position: center; 
+ 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+ 
+  
+}
+
+.card {
+  height: 100%;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
 .h3-header{
   z-index:10;
 }
@@ -152,6 +175,26 @@ section{
   height: auto;
 }
 
+.popisek{
+ font-size:1.2rem;
+ color:#1A531B;
+}
+
+.green{
+  color:#1A531B;
+}
+
+.brown{
+  background-color: #8B6E4E;
+  color: #F8F5EC;
+  
+}
+
+.brown:hover{
+  background-color: #69492b;
+  color:#F8F5EC
+}
+
 
 @media (min-width: 1200px) {
   .carousel-item img {
@@ -165,6 +208,10 @@ section{
 
   .orangutan-header{
     font-size:2.5rem;
+  }
+
+  .card-adopce {
+    height: 250px;
   }
 }
 

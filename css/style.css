@@ -185,13 +185,14 @@ section{
 }
 
 .brown{
-  background-color: #8B6E4E;
-  color: #F8F5EC;
+  background-color:#1A531B;
+  color:#f2f4f7
+  
   
 }
 
 .brown:hover{
-  background-color: #69492b;
+  background-color:#338935;
   color:#F8F5EC
 }
 
@@ -206,10 +207,50 @@ section{
   color:#338935;
 }
 
+.baner{
+  width:120%;
+}
+
+.rezervace-button{
+  background-color: #1A531B;
+  color:#f2f4f7;
+}
+
+.rezervace-button:hover{
+  background-color:#338935;
+  color:#f2f4f7;
+}
+
+.pozice-sekce{
+  position:relative;
+  
+}
+
+.pozice{
+  position:absolute;
+ top:0;
+  
+}
+
+ 
+ 
+      @media (min-width: 800px) {
+        .babies-bg {
+            background-image: url(../images/miminka-baner.png), url(../images/blobos.svg);
+            background-repeat: no-repeat, no-repeat;
+            background-position: right center, 80% 10%;
+          }
+      }
+          
+    
 
 
 @media (min-width: 1200px) {
  
+  .baner{
+     width: 140%;
+  max-width: none;
+  }
 
   .card-picture{
     height:400px;

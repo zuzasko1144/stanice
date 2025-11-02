@@ -232,6 +232,22 @@ section{
   
 }
 
+.form-label{
+  color:#1A531B;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.accordion-button{
+  color:#1A531B;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.accordion-body{
+  color:#1A531B;
+  font-family: 'Montserrat', sans-serif;
+}
+
  
  
       @media (min-width: 800px) {
@@ -239,6 +255,12 @@ section{
             background-image: url(../images/miminka-baner.png), url(../images/blobos.svg);
             background-repeat: no-repeat, no-repeat;
             background-position: right center, 80% 10%;
+          }
+
+          .adoptuj-bg {
+            background-image:  url(../images/blobos.svg);
+            background-repeat: no-repeat, no-repeat;
+            background-position: right center,  20%;
           }
       }
           

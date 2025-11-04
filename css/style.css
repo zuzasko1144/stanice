@@ -48,6 +48,14 @@ section{
   font-family: 'Montserrat', sans-serif;
 }
 
+.hero-plemeno{
+   background-image: url('../images/plemeno-banner.jpeg');
+  background-size: cover;
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+  min-height: 400px;
+}
+
 .hero-adopce {
   background-image: url('../images/adopce-hero.jpg');
   background-size: cover;
@@ -248,6 +256,15 @@ section{
   font-family: 'Montserrat', sans-serif;
 }
 
+.ul{
+   color:#338935;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.povaha-header{
+  color:#338935;
+}
+
  
  
       @media (min-width: 800px) {
@@ -261,6 +278,12 @@ section{
             background-image:  url(../images/blobos.svg);
             background-repeat: no-repeat, no-repeat;
             background-position: right center,  20%;
+          }
+
+          .plemeno-bg{
+            background-image: url(../images/charakteristika.png), url(../images/blobos.svg);
+            background-repeat: no-repeat, no-repeat;
+            background-position: right center, 80% 10%;
           }
       }
           

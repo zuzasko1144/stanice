@@ -265,13 +265,31 @@ section{
   color:#338935;
 }
 
+.zelena{
+    color: #1A531B !important;
+}
+
+.text-content{
+   max-width: 420px; /* všechny odstavce stejně široké */
+  line-height: 1.6;
+  
+}
+
+.blob-column {
+   background-image: url("../images/blobos.svg");
+    
+    background-position: center 50%; /* zarovná doprostřed */
+    padding: 3rem 1.5rem; /* trochu víc prostoru kolem textu */
+    
+  }
+
  
  
       @media (min-width: 800px) {
         .babies-bg {
             background-image: url(../images/miminka-baner.png), url(../images/blobos.svg);
             background-repeat: no-repeat, no-repeat;
-            background-position: right center, 80% 10%;
+            background-position:  right center, 80% 10%;
           }
 
           .adoptuj-bg {
@@ -288,7 +306,13 @@ section{
       }
           
     
-
+@media (max-width: 768px) {
+  .blob-column {
+    background-size: 200%; /* rozšíří blob přes celý text */
+    background-position: center 50%; /* zarovná doprostřed */
+   
+  }
+}
 
 @media (min-width: 1200px) {
  
@@ -308,6 +332,13 @@ section{
   .card-adopce {
     height: 250px;
   }
+
+  .blob-column{
+  background-image: url("../images/blobos.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center 40%;
+}
 }
 
 h2 {

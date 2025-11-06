@@ -267,21 +267,36 @@ section{
 
 .zelena{
     color: #1A531B !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.zelena-l{
+  color:#338935;
 }
 
 .text-content{
-   max-width: 420px; /* všechny odstavce stejně široké */
+   max-width: 420px; 
   line-height: 1.6;
   
 }
 
-.blob-column {
-   background-image: url("../images/blobos.svg");
-    
-    background-position: center 50%; /* zarovná doprostřed */
-    padding: 3rem 1.5rem; /* trochu víc prostoru kolem textu */
-    
-  }
+.blob-column-1{
+ background-color:#F5FAFF;
+ box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.blob-column-2{
+  background-color: #EEF4F8;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.sloupecek{
+  background-color: #EEF4F8;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+
+
 
  
  
@@ -307,11 +322,7 @@ section{
           
     
 @media (max-width: 768px) {
-  .blob-column {
-    background-size: 200%; /* rozšíří blob přes celý text */
-    background-position: center 50%; /* zarovná doprostřed */
-   
-  }
+  
 }
 
 @media (min-width: 1200px) {
@@ -333,12 +344,12 @@ section{
     height: 250px;
   }
 
-  .blob-column{
-  background-image: url("../images/blobos.svg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center 40%;
+  .rezim-img{
+  
+  height:auto;
 }
+
+  
 }
 
 h2 {

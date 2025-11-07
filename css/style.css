@@ -4,12 +4,12 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
-   background-color: #f5f7fa;  
+  background-color: #f5f7fa;
 }
 
 section {
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .navbar {
@@ -33,12 +33,12 @@ section {
   text-transform: uppercase;
 
   font-weight: 900;
-  
+
 }
 
 
 
-section{
+section {
   isolation: isolate;
 }
 
@@ -48,8 +48,8 @@ section{
   font-family: 'Montserrat', sans-serif;
 }
 
-.hero-plemeno{
-   background-image: url('../images/plemeno-banner.jpeg');
+.hero-plemeno {
+  background-image: url('../images/plemeno-banner.jpeg');
   background-size: cover;
   background-position: 50% 30%;
   background-repeat: no-repeat;
@@ -103,7 +103,7 @@ section{
   color: #F8F5EC;
   text-transform: uppercase;
 
-   --bs-btn-color: #F8F5EC;
+  --bs-btn-color: #F8F5EC;
   --bs-btn-bg: #1A531B;
   --bs-btn-border-color: #1A531B;
   --bs-btn-hover-color: #F8F5EC;
@@ -121,24 +121,24 @@ section{
 .card-picture {
   display: block;
   width: 100%;
-  height:300px;            
-  object-fit: cover;        
-  object-position: center;  
-  
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+
 }
 
-.card-adopce{
+.card-adopce {
   display: block;
   width: 100%;
-  height:180px;            
-  object-fit: cover;        
-  object-position: center; 
- 
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   overflow: hidden;
- 
-  
+
+
 }
 
 .card {
@@ -149,32 +149,32 @@ section{
   height: 100%;
 }
 
-.h3-header{
-  z-index:10;
+.h3-header {
+  z-index: 10;
 }
 
-.blob-card{
+.blob-card {
   position: relative;
   z-index: 1;
-  z-index: auto; 
-  
+  z-index: auto;
+
 }
 
 .pozice {
   position: absolute;
-  top: -180px;   
-  left: -200px;  
-  width: 550px;  
-  z-index: -1000;    
+  top: -180px;
+  left: -200px;
+  width: 550px;
+  z-index: -1000;
 }
 
-.pozice2{
+.pozice2 {
   position: absolute;
-  bottom: -160px; 
-  right: -180px;  
-  width: 550px;   
+  bottom: -160px;
+  right: -180px;
+  width: 550px;
   z-index: -1;
-   
+
 }
 
 .blobik {
@@ -183,173 +183,185 @@ section{
   height: auto;
 }
 
-.popisek{
- font-size:1.2rem;
- color:#1A531B;
+.popisek {
+  font-size: 1.2rem;
+  color: #1A531B;
 }
 
-.green{
-  color:#1A531B;
+.green {
+  color: #1A531B;
 }
 
-.brown{
-  background-color:#1A531B;
-  color:#f2f4f7
-  
-  
+.brown {
+  background-color: #1A531B;
+  color: #f2f4f7
 }
 
-.brown:hover{
-  background-color:#338935;
-  color:#F8F5EC
+.brown:hover {
+  background-color: #338935;
+  color: #F8F5EC
 }
 
 
 
-.laila-section{
-  
+.laila-section {
+
   background-color: #f2f4f7;
 }
 
-.vrhy-text{
-  color:#338935;
+.vrhy-text {
+  color: #338935;
 }
 
-.baner{
-  width:120%;
+.baner {
+  width: 120%;
 }
 
-.rezervace-button{
+.rezervace-button {
   background-color: #1A531B;
-  color:#f2f4f7;
+  color: #f2f4f7;
 }
 
-.rezervace-button:hover{
-  background-color:#338935;
-  color:#f2f4f7;
+.rezervace-button:hover {
+  background-color: #338935;
+  color: #f2f4f7;
 }
 
-.pozice-sekce{
-  position:relative;
-  
+.pozice-sekce {
+  position: relative;
+
 }
 
-.pozice{
-  position:absolute;
- top:0;
-  
+.pozice {
+  position: absolute;
+  top: 0;
+
 }
 
-.form-label{
-  color:#1A531B;
+.form-label {
+  color: #1A531B;
   font-family: 'Montserrat', sans-serif;
-  
+
 }
 
-.accordion-button{
-  color:#1A531B;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.accordion-body{
-  color:#1A531B;
+.accordion-button {
+  color: #1A531B;
   font-family: 'Montserrat', sans-serif;
 }
 
-.ul{
-   color:#338935;
-    font-family: 'Montserrat', sans-serif;
+.accordion-body {
+  color: #1A531B;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.povaha-header{
-  color:#338935;
+.ul {
+  color: #338935;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.zelena{
-    color: #1A531B !important;
-    font-family: 'Montserrat', sans-serif;
+.povaha-header {
+  color: #338935;
 }
 
-.zelena-l{
-  color:#338935;
+.zelena {
+  color: #1A531B !important;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.text-content{
-   max-width: 420px; 
+.zelena-l {
+  color: #338935;
+}
+
+.text-content {
+  max-width: 420px;
   line-height: 1.6;
-  
+
 }
 
-.blob-column-1{
- background-color:#F5FAFF;
- box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+.blob-column-1 {
+  background-color: #F5FAFF;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
-.blob-column-2{
+.blob-column-2 {
   background-color: #EEF4F8;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
-.sloupecek{
+.sloupecek {
   background-color: #EEF4F8;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
-
-
-
- 
- 
-      @media (min-width: 800px) {
-        .babies-bg {
-            background-image: url(../images/miminka-baner.png), url(../images/blobos.svg);
-            background-repeat: no-repeat, no-repeat;
-            background-position:  right center, 80% 10%;
-          }
-
-          .adoptuj-bg {
-            background-image:  url(../images/blobos.svg);
-            background-repeat: no-repeat, no-repeat;
-            background-position: right center,  20%;
-          }
-
-          .plemeno-bg{
-            background-image: url(../images/charakteristika.png), url(../images/blobos.svg);
-            background-repeat: no-repeat, no-repeat;
-            background-position: right center, 80% 10%;
-          }
-      }
-          
-    
-@media (max-width: 768px) {
+.rezim-text {
+  font-size: 1rem;
+  color:#338935;
+  font-family: 'Montserrat', sans-serif;
   
 }
+
+
+
+
+
+
+@media (min-width: 800px) {
+  .babies-bg {
+    background-image: url(../images/miminka-baner.png), url(../images/blobos.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right center, 80% 10%;
+  }
+
+  .adoptuj-bg {
+    background-image: url(../images/blobos.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right center, 20%;
+  }
+
+  .plemeno-bg {
+    background-image: url(../images/charakteristika.png), url(../images/blobos.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right center, 80% 10%;
+  }
+
+  .rezim-text {
+    font-size: 1.4rem;
+  }
+
+}
+
+
+@media (max-width: 768px) {}
 
 @media (min-width: 1200px) {
- 
-  .baner{
-     width: 140%;
-  max-width: none;
+
+  .baner {
+    width: 140%;
+    max-width: none;
   }
 
-  .card-picture{
-    height:400px;
+  .card-picture {
+    height: 400px;
   }
 
-  .orangutan-header{
-    font-size:2.5rem;
+  .orangutan-header {
+    font-size: 2.5rem;
   }
 
   .card-adopce {
     height: 250px;
   }
 
-  .rezim-img{
-  
-  height:auto;
-}
+  .rezim-img {
 
-  
+    width: 100%;
+    height: 350px; /* nastav stejné číslo pro všechny obrázky */
+    object-fit: cover; /* ořízne přebytečné části, zachová poměr stran */
+    object-position: center; /* zarovnání středu obrázku */
+  }
+
+
+
 }
 
 h2 {
@@ -363,8 +375,6 @@ h2 {
   color: #8B6E4E;
 }
 
-.orangutan-header{
-  font-size:3.5rem;
+.orangutan-header {
+  font-size: 3.5rem;
 }
-
-

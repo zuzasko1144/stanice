@@ -72,6 +72,14 @@ section {
   min-height: 400px;
 }
 
+.hero-kontakty{
+  background-image: url('../images/kontakty-banner.jpg');
+  background-size: cover;
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+  min-height: 400px;
+}
+
 .card {
   border: none;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -257,6 +265,14 @@ section {
 .ul {
   color: #338935;
   font-family: 'Montserrat', sans-serif;
+}
+
+.ul-kontakty{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.kontakty-text{
+  color: #1A531B;
 }
 
 .povaha-header {

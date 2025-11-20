@@ -316,6 +316,13 @@ section {
   
 }
 
+.mapa{
+  width:90%;
+}
+
+ .li .list{
+  color: #1A531B;;
+}
 
 
 
@@ -351,6 +358,9 @@ section {
 
 @media (min-width: 1200px) {
 
+  .mapa{
+    width:50%;
+  }
   .baner {
     width: 140%;
     max-width: none;

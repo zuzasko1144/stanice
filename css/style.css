@@ -48,6 +48,14 @@ section {
   font-family: 'Montserrat', sans-serif;
 }
 
+.blob-div{
+  background-image: url('../images/blobos.svg');
+  background-size: cover;
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+  min-height: 400px;
+}
+
 .hero-plemeno {
   background-image: url('../images/plemeno-banner.jpeg');
   background-size: cover;

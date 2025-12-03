@@ -30,7 +30,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
-          <a class="nav-link" href="#">Domů</a>
+          <a class="nav-link" href="domu.html">Domů</a>
           <a class="nav-link" href="index.html">Naši rodiče</a>
           <a class="nav-link" href="adopce.html">Adopce</a>
           <a class="nav-link" href="o_plemeni.html">O plemeni</a>
@@ -64,7 +64,7 @@
           <p class="px- fs-4  vrhy-text fw-bold">Je to tak! Už je zase v tom, v březnu 2025 čekáme malá orangunátka!</p>
           <button class="btn btn-lg rezervace-button fw-bold">rezervace online</button>
         </div>
-       
+
       </div>
     </div>
 
@@ -225,7 +225,7 @@
             <div class="col-md-3">
               <label for="validationCustom04" class="form-label fw-bold">Stát</label>
               <select class="form-select" id="validationCustom04" required>
-                <option selected disabled value="">Choose...</option>
+                <option selected disabled value="">Vyber...</option>
                 <option>...</option>
               </select>
               <div class="invalid-feedback">
@@ -233,24 +233,31 @@
               </div>
             </div>
 
-            <div class="col-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                <label class="form-check-label" for="invalidCheck">
-                  Agree to terms and conditions
-                </label>
-                <div class="invalid-feedback">
-                  You must agree before submitting.
-                </div>
+            <div class="col-md-6">
+              <label for="validationCustom04" class="form-label fw-bold">Preferuji</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Vyber...</option>
+                <option>Samec</option>
+                <option>Samice</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid state.
               </div>
             </div>
-            <div class="col-12">
-              <button class="btn rezervace-button fw-bold" type="submit">Submit form</button>
+
+            <div class="col-md-6">
+              <label class="form-label fw-bold">Zkušenost s adopcí</label>
+              <select class="form-select" required>
+                <option selected disabled value="">Vyber...</option>
+                <option>Ano</option>
+                <option>Ne</option>
+              </select>
+              <div class="invalid-feedback">
+                Prosím vyberte možnost.
+              </div>
             </div>
-          </form>
         </div>
       </div>
-    </div>
 
   </section>
 
@@ -325,7 +332,7 @@
   <nav class="navbar navbar-expand-lg p-3 ">
     <div class="container-fluid">
       <a class="navbar-brand fw-bold mx-auto  " href="#">Orangutan 2025</a>
-      
+
 
     </div>
   </nav>

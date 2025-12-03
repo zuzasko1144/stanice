@@ -49,7 +49,7 @@ section {
 }
 
 .blob-div{
-  background-image: url('../images/blobos.svg');
+  background-image: url('../images/blobkontakt.svg');
   background-size: cover;
   background-position: 50% 30%;
   background-repeat: no-repeat;
@@ -293,7 +293,18 @@ section {
 }
 
 .zelena-l {
-  color: #338935;
+  color:#F5FAFF;
+}
+
+.zelena-2{
+  color:#338935;
+}
+.ikona-kontakt{
+  color: #f5f7fa;
+}
+
+.list{
+  color:#3A5F0B;
 }
 
 .text-content {

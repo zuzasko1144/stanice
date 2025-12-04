@@ -343,6 +343,45 @@ section {
   color: #1A531B;;
 }
 
+.main-banner{
+   background-image: url(../images/main_pozadi.jpg);
+   
+  
+    background-repeat: no-repeat, no-repeat;
+
+    background-size:cover;
+  
+    background-position:center;
+   
+   
+    z-index: 1;
+    height: 200px;
+    
+ 
+    
+}
+
+.no-left{
+  padding-left:0;
+  margin-left: 0;
+}
+
+.right-main{
+  padding-left:0;
+  margin-left:0;
+  background-color:#1A531B;
+  min-height:200px;
+  
+ 
+}
+
+.main-banner::before {
+    content: "";
+    position: absolute;
+  
+    background: rgba(0, 0, 0, 0.45);  
+    z-index: 2;
+}
 
 
 
@@ -373,9 +412,15 @@ section {
 }
 
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+  
+}
 
 @media (min-width: 1200px) {
+
+  .main-banner{
+    height:600px;
+  }
 
   .mapa{
     width:50%;

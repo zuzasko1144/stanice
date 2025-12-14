@@ -294,6 +294,7 @@ section {
 
 .zelena-l {
   color:#F5FAFF;
+  font-size:15px;
 }
 
 .zelena-2{
@@ -414,14 +415,14 @@ section {
   z-index: 10;
   color:white;
   position:relative;
-  font-size:30px;
+  font-size:40px;
 }
 
 .citat-main-page{
   z-index: 10;
   color:white;
   position:relative;
-  font-size:30px;
+  font-size:20px;
   line-height: 60px;
 }
 
@@ -477,6 +478,7 @@ section {
 
 .duvera-popis{
   color:#1A531B;
+  font-size:20px;
 }
 
 .osoba-ikona{
@@ -521,6 +523,17 @@ section {
 }
 
 @media (min-width: 1200px) {
+
+  .citat-main-page{
+    font-size:30px;
+  }
+
+  .h1-main-page{
+    font-size:30px;
+  }
+  .zelena-l{
+    font-size: 20px;
+  }
 
   .duvera-popis{
   font-size:20px;
